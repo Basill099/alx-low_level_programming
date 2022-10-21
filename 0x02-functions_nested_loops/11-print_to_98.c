@@ -1,4 +1,4 @@
-#include <stdio.h>
+i#include <stdio.h>
 
 /**
  * print_to_98 - Prints all natural number
@@ -23,4 +23,5 @@ void print_to_98(int n)
 			printf("%d, ", n);
 		}
 	}
+	printf("%d\n", n);
 }
