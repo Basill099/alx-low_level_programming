@@ -3,7 +3,9 @@
 /**
  * print_to_98 - Prints all natural numbers
  * from in to 98.
+ *
  * @n: input number.
+ *
  * Return: no return.
  */
 
