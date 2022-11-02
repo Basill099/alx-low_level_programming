@@ -2,18 +2,21 @@
 #include <string.h>
 
 /**
- * _memset -> this memory set function
- * @s: a string
- * @b: a character
- * @n: an interger
- * Return: a string
+ * _memset - fill a block of memory with a specific value
+ * @s: starting address of the memory to be filled
+ * @b: the desired value
+ * @n: numbers of bytes to be changed
+ * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int a;
+	int i = 0;
 
-	for (a = 0; a < n; a++)
-		s[a] = b;
+	for (; n > 0; a++)
+	{
+		s[1] = b;
+		n--;
+	}
 
 	return (s);
 }
